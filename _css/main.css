@@ -159,3 +159,13 @@ textarea {
 .cb {
 	clear: both;
 }
+.test {
+    color: pink;
+    font-size:10em;
+    transition: color 0.5s ease-in-out 0s;
+}
+
+.test:hover {
+    color:blue;
+    transition: color 0.5s ease-in-out 0s;
+}
